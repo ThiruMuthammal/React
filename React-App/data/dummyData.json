@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Hp",
+            "price": 500,
+            "image": "http://localhost:3000/assets/Hp.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Dell",
+            "price": 700,
+            "image": "http://localhost:3000/assets/Dell.webp"
+        },
+        {
+            "id": 3,
+            "name": "Asus",
+            "price": 600,
+            "image": "http://localhost:3000/assets/Asus.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Mac",
+            "price": 1000,
+            "image": "http://localhost:3000/assets/MacBook.webp"
+        }
+    ]
+    }

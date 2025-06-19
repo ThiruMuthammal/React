@@ -35,7 +35,7 @@ function ProductList() {
     return (
         <>
             {productList}
-            <button onClick={() => setDummy(false)}>Dummy Button</button>
+            {/* <button onClick={() => setDummy(false)}>Dummy Button</button> */}
         </>
     );
 }

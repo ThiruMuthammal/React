@@ -7,12 +7,10 @@ function Product(props) {
     // let isPurchased = false;
     // useState Hook
     // Purpose: When we want to rerender the component we should use useState hook
-    const [purchased, setPurchased] = useState("false");
+    const [purchased, setPurchased] = useState(false);
     function BuyProduct(discount) {
         console.log(props.name, "laptop purchased", discount + "% discount");
-        setPurchased("true");
-        console.log(purchased);
-
+        setPurchased(true);
     }
     return (
         <div className="card">
@@ -21,7 +19,7 @@ function Product(props) {
             <p>{props.price}</p>
             <button onClick={() => { BuyProduct(20) }}>Buy Now</button>
             <button onClick={() => props.delete(props.id)}>Delete</button>
-            <p>{purchased}</p>
+            <p>{purchased ? "Already purchased" : "Get it Now"}</p>
         </div>
     );
 }

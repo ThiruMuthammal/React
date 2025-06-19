@@ -8,10 +8,11 @@
         },
         {
             "id": 2,
-            "name": "Dell",
-            "price": 700,
-            "image": "http://localhost:3000/assets/Dell.webp"
+            "name": "MacBook",
+            "price": 1700,
+            "image": "http://localhost:3000/assets/MacBook.jpg"
         },
+        
         {
             "id": 3,
             "name": "Asus",
@@ -22,7 +23,19 @@
             "id": 4,
             "name": "Mac",
             "price": 1000,
-            "image": "http://localhost:3000/assets/MacBook.webp"
+            "image": "http://localhost:3000/assets/Mac.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Lenovo",
+            "price": 700,
+            "image": "http://localhost:3000/assets/Lenovo.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Dell",
+            "price": 900,
+            "image": "http://localhost:3000/assets/Dell.jpg"
         }
     ]
     }
